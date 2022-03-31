@@ -2,9 +2,7 @@ package com.practice.springpra.service;
 
 import com.practice.springpra.domain.Member;
 import com.practice.springpra.repository.MemberRepository;
-import com.practice.springpra.repository.MemoryMemberRepository;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+
 
 import java.util.List;
 import java.util.Optional;
