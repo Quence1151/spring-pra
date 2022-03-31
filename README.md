@@ -13,6 +13,7 @@
 
 --------------------------------
 ###오라클클라우드 연결
+
 - propertise 설정
   ```properties
   spring:
@@ -63,6 +64,7 @@
       </dependency>
   
 ###gradle 의존성 옵션 정리
+
 <img src="https://docs.gradle.org/current/userguide/img/java-library-ignore-deprecated-main.png" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 - implementation
   - 의존 라이브러리 수정시 본 모듈까지만 재빌드
