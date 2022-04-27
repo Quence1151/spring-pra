@@ -2,12 +2,13 @@ package com.practice.springpra.service;
 
 import com.practice.springpra.domain.Member;
 import com.practice.springpra.repository.MemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 
 import java.util.List;
 import java.util.Optional;
 
-
+@Transactional
 public class MemberService {
 
     /**
