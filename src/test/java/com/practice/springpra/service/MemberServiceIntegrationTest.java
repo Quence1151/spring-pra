@@ -17,13 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class MemberServiceIntegrationTest {
 
     @Autowired MemberService memberService;
-    @Autowired MemoryMemberRepository memberRepository = new MemoryMemberRepository();
-
-
-    @AfterEach
-    public void afterEach(){ //테스트는 독립적으로 시행되어야함으로 매번 테스트 종료시에는 공용공간을 초기화 해줘야함.
-        memberRepository.clearStroe();
-    }
+    @Autowired MemoryMemberRepository memberRepository;
 
     @Test
     void 회원가입() { //테스트코드는 외국인과 작업하는 경우가 아니면 한국어로 만들어도 무관.

@@ -1,5 +1,6 @@
 package com.practice.springpra.service;
 
+import com.practice.springpra.aop.TimeTraceAop;
 import com.practice.springpra.repository.JdbcMemberRepository;
 import com.practice.springpra.repository.JpaMemberRepository;
 import com.practice.springpra.repository.MemberRepository;
